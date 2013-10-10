@@ -1,0 +1,126 @@
+.ch-grid{width: 299px; height: 228px;}
+
+.ch-grid .ch-info {
+	/*position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	
+	-webkit-backface-visibility: hidden;*/
+
+}
+
+.ch-item:hover{cursor: pointer;}
+
+.work-info{
+	background-color: rgba(250, 92, 92, 0.9);
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 22px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+}.work-info:hover{opacity: 1; cursor: pointer;}
+.work-info span{text-align: center; width: 100%; padding-top: 100px;}
+.work-info span span{font-size: 12px; font-weight: 400; display: block; text-align: center; width: 100%; padding-top: 10px;}
+
+.ch-grid .ch-item:hover {}
+.ch-grid .ch-item:hover .ch-info {	}
+
+.ch-info:hover .ch-info-back {}
+
+.ch-grid .ch-infoie9 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+/*	opacity: 0;*/
+}
+
+.ch-grid .ch-infoie9 .h3 {
+	width:180px;
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin: 0 20px;
+	padding: 40px 0 0 0;
+	height: 80px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-align:center;
+	display:none;
+}
+
+.ch-grid .ch-infoie9 p {
+	width:150px;
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	text-align:center;
+	display:none;
+}
+
+.ch-grid .ch-infoie9 p a {
+	display: block;
+	color: #fff;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing:1px;
+	margin-top:30px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-grid .ch-infoie9:hover {
+	background-image:url(../img/rollie9_works.png);
+}
+
+.ch-grid .ch-infoie9:hover .h3{
+	display:block;
+}
+
+.ch-grid .ch-infoie9:hover p{
+	display:block;
+}
+
+
+.ch-grid .ch-infoie9 p a:hover {
+	color: #111;
+}
+
+.ch-grid .ch-itemie9{
+	width: 100%;
+	height: 221px;
+	position: relative;
+	cursor: default;
+}
+
+.ch-grid .ch-img-1 {background-image: url(../img/pf/work_01.jpg);}
+.ch-grid .ch-img-2 {background-image: url(../img/pf/work_02.jpg);}
+.ch-grid .ch-img-3 {background-image: url(../img/pf/work_03.jpg);}
+.ch-grid .ch-img-4 {background-image: url(../img/pf/work_04.jpg);}
+.ch-grid .ch-img-5 {background-image: url(../img/pf/work_05.jpg);}
+.ch-grid .ch-img-6 {background-image: url(../img/pf/work_06.jpg);}
+.ch-grid .ch-img-7 {background-image: url(../img/pf/work_07.jpg);}
+.ch-grid .ch-img-8 {background-image: url(../img/pf/work_08.jpg);}
+.ch-grid .ch-img-9 {background-image: url(../img/pf/work_09.jpg);}
